@@ -99,12 +99,12 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`zahrah`,"http://twitch.tv/S-F")
+client.user.setGame(``,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
 var adminprefix = '#'
-const developers = ['524198957371490305'] //الاي دى حقك
+const developers = ['517363195216789524'] //الاي دى حقك
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
